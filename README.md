@@ -1,3 +1,4 @@
+# Thanks to Ahmad Bazadogh
 # django Starterkit
 A simple Django starter-kit with the basic component.
 
