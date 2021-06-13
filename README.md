@@ -1,5 +1,5 @@
 # Thanks to Ahmad Bazadogh
-# django Starterkit
+# django Starterkit (Django, Python, Docker)
 A simple Django starter-kit with the basic component.
 
 ## Requirments
@@ -7,16 +7,16 @@ A simple Django starter-kit with the basic component.
 - Docker-compose: https://docs.docker.com/compose/install/
 
 ## Getting Started
-1. Dlone/Download the repo:
-`git clone --depth 1 https://github.com/ahmadiga/django-starterkit.git`
-2. navigate to django-starterkit => docker-build
+1. Clone/Download the repo:
+`git clone --depth 1 https://github.com/iyadah/bazadogh-testing-engineer.git`
+2. Navigate to django-starterkit => docker-build
 `cd django-starterkit/docker-build/`
-3. build docker containers
+3. Build docker containers
 `docker-compose build`
 4. Launch containers:
 `docker-compose up -d`
 5. Migrate DB
-`docker-compose.exe exec server python manage.py migrate`
+`docker-compose exec server python manage.py migrate`
 6. All done,open your browser and navigate to `http://localhost:8000/`
 
 ## What's included
